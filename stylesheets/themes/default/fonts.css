@@ -1,0 +1,19 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 62.5%;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+p { font-size: 1.2em;}
+
+.pre-header a:hover { text-decoration: none; }
+
+#header div.tabs a {
+  font-size: 1.2em;
+	text-decoration: none;
+}
+#header div.tabs a.current { font-weight: bold; }
+
+#section h2 { font-weight: bold; }
+#footer a:hover { text-decoration: none; }
