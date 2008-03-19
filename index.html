@@ -12,54 +12,72 @@
 <body>
     <div id="header">
       <div class="pre-header">
-        <h1 class="left">Company Name</h1>
-        <h3 class="right">John Doe <span class="pipe">|</span> <a href="#">Log-out</a></h3>
-        <div class="clear-both"></div>   
-      </div>     
-      <div class="tabs">
-        <ul class="left">
-          <li><a href="#" class="current">Tab 1</a></li>
-          <li><a href="/">Tab 2</a></li>
-          <li><a href="/">Tab 3</a></li>
-          <li><a href="/">Tab 4</a></li>
-        </ul>
-        <ul class="right">
-          <li><a href="/">Tab 1</a></li>
-          <li><a href="/">Tab 2</a></li>
-          <li><a href="/">Tab 3</a></li>
-          <li><a href="/">Tab 4</a></li>
-        </ul>        
-      </div> 
-      <div class="clear-both"></div> 
-    </div>
-    <div id="container">
-      <div id="section" class="left">
-         <h2>Section Header</h2>
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-           </p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>          
-        </div> 
+        <div class="float-container left">
+          <h1>Company Name</h1>
+        </div>
+        <div class="float-container right">
+          <h3>John Doe <span class="pipe">|</span> <a href="#">Log-out</a></h3>
+        </div>   
       </div>
-      <div id="sidebar" class="right">
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-         </p>  
-        </div>                 
+      <div class="clear-both"></div> 
+      <div class="tabs">
+        <div class="float-container left">
+          <ul>
+            <li><a href="#" class="current">Tab 1</a></li>
+            <li><a href="/">Tab 2</a></li>
+            <li><a href="/">Tab 3</a></li>
+            <li><a href="/">Tab 4</a></li>
+          </ul>  
+        </div>
+        <div class="float-container right">
+          <ul>
+            <li><a href="#" class="current">Tab 1</a></li>
+            <li><a href="/">Tab 2</a></li>
+            <li><a href="/">Tab 3</a></li>
+            <li><a href="/">Tab 4</a></li>
+          </ul>  
+        </div>      
+      </div>
+      <div class="clear-both"></div>              
+    </div>
+
+    <div id="container">
+      <div id="main-container" class="float-container left">
+        <div id="main-content">
+          <h2>Section Header</h2>
+          <div class="content">
+                some content
+           </div>    
+        </div>
+      </div>
+      <div id="sidebar-container" class="float-container left">
+        <div id="sidebar-content">
+          <pre>
+            Some Text
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </pre>
+        </div>
       </div>
       <div class="clear-both"></div> 
       <div id="footer">
-        <p>
-          <a href="/">privacy</a>
-          <span class="pipe">|</span>
-          <a href="/">terms</a>
-          <span class="pipe">|</span>
-          <a href="/">company</a>
-        </p>
+        <a href="/">privacy</a>
+        <span class="pipe">|</span>
+        <a href="/">terms</a>
+        <span class="pipe">|</span>
+        <a href="/">company</a>
       </div>
-    </div>
+    </div>    
 </body>
 </html>

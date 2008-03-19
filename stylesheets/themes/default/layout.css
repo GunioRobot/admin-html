@@ -4,31 +4,33 @@ p { margin-bottom: 10px; }
 .right { float :right; }
 .clear-both { clear: both;}
 
-#header { padding: 5px 25px 0px 25px; }
+#header { padding: 5px 25px 0px 25px; }    
 
-.pre-header { padding: 5px 0px 30px 0px; }
+.pre-header { padding: 5px 0px 60px 0px; }
 .pre-header h3 { margin-top: 5px; }      
 .pre-header .pipe { margin: 0px 3px; }
                    
 #header div.tabs li { float: left; } 
-#header div.tabs ul.left li { margin-right: 5px; }
-#header div.tabs ul.right li { margin-left: 5px; }
+#header div.tabs .left li { margin-right: 5px; }
+#header div.tabs .right li { margin-left: 5px; }
 #header div.tabs a {
 	display: block;
-	padding: 4px 8px 4px;
-	border-bottom: 1px solid;
+	padding: 4px 8px;
 }
 
-#container { padding: 0px 25px; }
-#section, #sidebar { margin-top: 20px;}
-#section, #footer { width: 75%; }
-#sidebar { width: 25%; }
-#section div.content, #sidebar div.content { padding: 10px 20px 15px; }
-#sidebar div.content { padding-top: 0px; }
-#section h2 { padding: 10px 20px; }
-#footer p { padding: 10px 20px 15px 17px; } 
-#footer a { padding: 3px;}
+#main-container { width: 75% }
+#main-content, #sidebar-content { margin: 20px 25px 0px 25px; }
+#main-content div.content { padding: 10px 20px 15px; }
+#main-content h2 { padding: 10px 20px; }  
 
+#sidebar-container { width: 25%; }  
+#sidebar-content { padding: 0 20px 15px; }
+#sidebar-container { width: 25%; }   
+
+
+#footer { width: 50%; }
+#footer { padding: 10px 25px 15px 25px; } 
+#footer a { padding: 3px;}
 
 
 

@@ -15,20 +15,23 @@ body {
 
 #header div.tabs a { 
   background-color: #999999; 
-  border-bottom-color: #999999; 
+  border-bottom-color: red; 
 }
 #header div.tabs a:hover { 
   background-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-bottom-color: yellow;
 }          
 #header div.tabs a.current {
   background-color: #e5e5e5;
-  border-bottom: #e5e5e5;
+  border-bottom-color: #e5e5e5;     
   color: #14212B;
 } 
 
-#section { background-color: #ffffff; }
-#section h2 { background-color: #edf3fe; }
+#main-content { background-color: #ffffff; }
+#main-content h2 { background-color: #edf3fe; }
+
+#sidebar-content { background-color: #999999;}
+
 
 #footer a { color: #666666; }      
 #footer a:hover { 
