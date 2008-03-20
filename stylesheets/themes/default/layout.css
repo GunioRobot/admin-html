@@ -1,14 +1,23 @@
-p { margin-bottom: 10px; }
-
 .left { float:  left; }
 .right { float :right; }
-.clear-both { clear: both;}
+ 
+.clear-fix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+* html .clear-fix { display: inline-block; }    
 
 #header { padding: 5px 25px 0px 25px; }    
 
-.pre-header { padding: 5px 0px 60px 0px; }
-.pre-header h3 { margin-top: 5px; }      
-.pre-header .pipe { margin: 0px 3px; }
+#pre-header { 
+  padding: 5px 0px; 
+  margin-bottom: 50px;
+}
+#pre-header h3 { margin-top: 5px; }      
+#pre-header .pipe { margin: 0px 3px; }
                    
 #header div.tabs li { float: left; } 
 #header div.tabs .left li { margin-right: 5px; }
@@ -18,18 +27,19 @@ p { margin-bottom: 10px; }
 	padding: 4px 8px;
 }
 
-#main-container { width: 75% }
-#main-content, #sidebar-content { margin: 20px 25px 0px 25px; }
-#main-content div.content { padding: 10px 20px 15px; }
-#main-content h2 { padding: 10px 20px; }  
+#container { margin: 20px 25px 0px 25px; }
 
-#sidebar-container { width: 25%; }  
-#sidebar-content { padding: 0 20px 15px; }
-#sidebar-container { width: 25%; }   
+#primary-content { width: 75%; }
+#primary-content div.content { padding: 10px 20px 15px; }
+#primary-content h2 { padding: 10px 20px; }  
 
+#sidebar { margin-left: 3%; width: 22%; }
+#sidebar div.content { padding: 0 20px 15px 20px; } 
 
-#footer { width: 50%; }
-#footer { padding: 10px 25px 15px 25px; } 
+#footer {
+  font-size: 90%;
+   padding: 10px 45px 15px 45px; 
+} 
 #footer a { padding: 3px;}
 
 

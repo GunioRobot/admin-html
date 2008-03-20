@@ -27,11 +27,10 @@ body {
   color: #14212B;
 } 
 
-#main-content { background-color: #ffffff; }
-#main-content h2 { background-color: #edf3fe; }
+#primary-content { background-color: #ffffff; }
+#primary-content h2 { background-color: #edf3fe; }
 
-#sidebar-content { background-color: #999999;}
-
+#sidebar { background-color: #999999;}
 
 #footer a { color: #666666; }      
 #footer a:hover { 
