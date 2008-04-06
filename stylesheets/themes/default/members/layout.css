@@ -1,0 +1,42 @@
+#alpha-filter li { float: left; }
+#alpha-filter li a {
+  border: 1px solid; 
+  display: block;
+  margin: 0px 5px 5px 0px; 
+  padding: 3px 10px;
+}
+#member-list { margin-top: 20px; }
+#member-list h3 {
+  border-bottom: 2px solid; 
+  padding: 5px; 
+}
+#member-list td h3 { 
+  border-bottom: 1px solid; 
+  margin-left: 60px;
+}
+#members {
+  margin-bottom: 40px;
+  width: 100%;
+}
+#members td {
+  border-bottom: 1px solid;
+  padding: 5px;
+  vertical-align: top;
+}
+#members td.info {
+  border-right: 2px solid;
+  width: 280px;
+}
+#members .email { margin-bottom: 5px !important }
+#members .avatar {
+  border: 1px solid;
+  float: left;
+  margin-right: 10px;
+  max-height: 50px;
+  max-width: 50px;
+}
+#members ul {
+  line-height: 180%;
+  list-style-image: url(images/default/members/bullet.gif);
+  margin-left: 20px;
+}

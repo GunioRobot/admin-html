@@ -15,11 +15,9 @@ body {
 
 #header div.tabs a { 
   background-color: #999999; 
-  border-bottom-color: red; 
 }
 #header div.tabs a:hover { 
   background-color: #ffffff;
-  border-bottom-color: yellow;
 }          
 #header div.tabs a.current {
   background-color: #e5e5e5;
@@ -29,8 +27,22 @@ body {
 
 #primary-content { background-color: #ffffff; }
 #primary-content h2 { background-color: #edf3fe; }
+#primary-content a { 
+  color: #0077BB; 
+  text-decoration: none;
+}
 
-#sidebar { background-color: #999999;}
+#primary-content a:hover { color: #990000;}
+
+#sidebar div.list h2 { 
+  background-color: #edf3fe;
+  color: #333333;
+}
+#sidebar a { color: #005480; }
+#sidebar a:hover {
+  background-color: #005480;
+  color: #ffffff;
+}
 
 #footer a { color: #666666; }      
 #footer a:hover { 

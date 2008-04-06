@@ -1,0 +1,25 @@
+#alpha-filter li a {
+  background-color: #f7f7f7;
+  border-color: #eeeeee;
+}
+#alpha-filter li a:hover {
+  background-color: #999999;
+  color: #ffffff;
+}
+
+#member-list h3 {
+  border-bottom-color: #eeeeee;
+  color: #555555;
+}
+#member-list td h3 {
+  background-color: #f7f7f7;
+  border-bottom-color: #dddddd;
+}
+#members td { border-bottom-color: #eeeeee; }
+#members td.info { border-right-color: #eeeeee; }
+#members td.info p a { color: #777777; }
+#members .avatar { 
+  background-color: #ffffff;
+  border-color: #eeeeee;
+}
+#members ul { color: #777777;}
