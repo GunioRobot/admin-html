@@ -1,6 +1,6 @@
 .left { float:  left; }
 .right { float :right; }
- 
+
 .clear-fix:after {
   clear: both;
   content: ".";
@@ -8,16 +8,16 @@
   height: 0;
   visibility: hidden;
 }
-    
-#header { padding: 5px 25px 0px 25px; }    
 
-#pre-header { 
-  padding: 5px 0px 30px; 
-}
-#pre-header h3 { margin-top: 5px; }      
+* html .clear-fix { display: inline-block; }
+
+#header { padding: 5px 25px 0px 25px; }
+
+#pre-header { padding: 5px 0px 30px; }
+#pre-header h3 { margin-top: 5px; }
 #pre-header .pipe { margin: 0px 3px; }
-                   
-#header div.tabs li { float: left; } 
+
+#header div.tabs li { float: left; }
 #header div.tabs .left li { margin-right: 5px; }
 #header div.tabs .right li { margin-left: 5px; }
 #header div.tabs a {
@@ -33,11 +33,11 @@
 
 #sidebar { width: 24.9%; }
 #sidebar div.content { padding: 0 0px 15px 20px; }
-#sidebar div.list h2 { 
+#sidebar div.list h2 {
   margin: 0px 0px 5px 0px;
   padding: 6px 8px;
 } 
-#sidebar div.list ul a { 
+#sidebar div.list ul a {
   display: block;
   padding-left: 10px;
   text-decoration: none;
@@ -45,12 +45,7 @@
 
 #footer {
   font-size: 90%;
-  padding: 10px 45px 15px 45px; 
-} 
+  padding: 10px 45px 15px 45px;
+}
 #footer a { padding: 3px;}
-
-
-
-
-
 

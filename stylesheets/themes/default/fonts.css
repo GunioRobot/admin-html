@@ -9,7 +9,7 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.3em;}
 p { font-size: 1em;}
 
-.pre-header a:hover { text-decoration: none; }      
+.pre-header a:hover { text-decoration: none; }
 
 #header div.tabs a {
   font-size: 1em;
@@ -19,4 +19,5 @@ p { font-size: 1em;}
 
 #sidebar div.list ul a { font-size: 105%; }
 
-#footer a:hover { text-decoration: none; }         
+#footer a:hover { text-decoration: none; }
+#footer a:hover { text-decoration: none; }
