@@ -10,7 +10,6 @@
   border-bottom-color: #eeeeee;
   color: #555555;
 }
-#members div.member { border-color: #eeeeee; }
 #members div.member .header { color: #ffffff; }
 #members div.member .header .tools a { color: #ffffff; }
 #members div.member .header .tools a:hover { 
@@ -23,9 +22,8 @@
   background-color: #ffffff;
   border-color: #eeeeee;
 }
-#members div.member .info {
-  border-right-color: #eeeeee;
-}
+#members div.member .info-container { border-color: #dddddd; }
+#members div.member .info { border-right-color: #eeeeee; }
 #members div.member .info h3 {
   background-color: #f7f7f7;
   border-bottom-color: #dddddd;

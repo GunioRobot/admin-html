@@ -8,7 +8,6 @@
 #members { margin-top: 20px; }
 #members h3 { padding: 5px; }
 #members div.member { 
-  border: 1px solid; 
   margin-bottom: 20px;
 }
 #members div.member .header { padding: 3px 0px; }
@@ -24,6 +23,10 @@
   margin-right: 10px;
   max-height: 50px;
   max-width: 50px;
+}
+#members div.member .info-container {
+  border: 1px solid;
+  border-top: none;
 }
 #members div.member .info { 
   padding: 5px;
