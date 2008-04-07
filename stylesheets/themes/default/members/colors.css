@@ -6,20 +6,29 @@
   background-color: #999999;
   color: #ffffff;
 }
-
-#member-list h3 {
+#members h3 {
   border-bottom-color: #eeeeee;
   color: #555555;
 }
-#member-list td h3 {
+#members div.member { border-color: #eeeeee; }
+#members div.member .header { color: #ffffff; }
+#members div.member .header .tools a { color: #ffffff; }
+#members div.member .header .tools a:hover { 
   background-color: #f7f7f7;
-  border-bottom-color: #dddddd;
+  color: #0077BB; 
 }
-#members td { border-bottom-color: #eeeeee; }
-#members td.info { border-right-color: #eeeeee; }
-#members td.info p a { color: #777777; }
-#members .avatar { 
+#members div.member .active { background-color: #0077bb; }
+#members div.member .suspended { background-color: #990000; }
+#members div.member .avatar {
   background-color: #ffffff;
   border-color: #eeeeee;
 }
-#members ul { color: #777777;}
+#members div.member .info {
+  border-right-color: #eeeeee;
+}
+#members div.member .info h3 {
+  background-color: #f7f7f7;
+  border-bottom-color: #dddddd;
+}
+#members div.member .email a { color: #777777;}
+#members div.member .details ul { color: #777777; }

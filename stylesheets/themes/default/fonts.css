@@ -9,7 +9,8 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.3em;}
 p { font-size: 1em;}
 
-.pre-header a:hover { text-decoration: none; }
+#pre-header h3 { font-size: 1em; }
+#pre-header a:hover { text-decoration: none; }
 
 #header div.tabs a {
   font-size: 1em;

@@ -10,6 +10,9 @@
 }
 
 * html .clear-fix { display: inline-block; }
+.floated-list li { float: left; }
+.floated-list li a { display: block; }
+.centered { text-align: center; }
 
 #header { padding: 5px 25px 0px 25px; }
 

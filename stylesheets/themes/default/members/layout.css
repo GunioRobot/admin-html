@@ -5,38 +5,41 @@
   margin: 0px 5px 5px 0px; 
   padding: 3px 10px;
 }
-#member-list { margin-top: 20px; }
-#member-list h3 {
-  border-bottom: 2px solid; 
-  padding: 5px; 
+#members { margin-top: 20px; }
+#members h3 { padding: 5px; }
+#members div.member { 
+  border: 1px solid; 
+  margin-bottom: 20px;
 }
-#member-list td h3 { 
-  border-bottom: 1px solid; 
-  margin-left: 60px;
+#members div.member .header { padding: 3px 0px; }
+#members div.member .header h4 { 
+  float: left;
+  padding: 1px 3px 1px 10px; 
 }
-#members {
-  margin-bottom: 40px;
-  width: 100%;
-}
-#members td {
-  border-bottom: 1px solid;
-  padding: 5px;
-  vertical-align: top;
-}
-#members td.info {
-  border-right: 2px solid;
-  width: 280px;
-}
-#members .email { margin-bottom: 5px !important }
-#members .avatar {
+#members div.member .header .tools { padding: 1px 10px 1px 3px; }
+#members div.member .header .tools a { padding: 0px 3px; }
+#members div.member .avatar {
   border: 1px solid;
   float: left;
   margin-right: 10px;
   max-height: 50px;
   max-width: 50px;
 }
-#members ul {
+#members div.member .info { 
+  padding: 5px;
+  border-right: 2px solid;
+  width: 280px; 
+}
+#members div.member .identity {
+  margin-left: 58px;
+}
+#members div.member .info h3 { 
+  border-bottom: 1px solid; 
+  padding: 5px;
+}
+#members div.member .details ul {
   line-height: 180%;
-  list-style-image: url(images/default/members/bullet.gif);
+  list-style-type: square;
   margin-left: 20px;
+  padding: 5px;
 }

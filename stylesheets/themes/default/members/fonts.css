@@ -1,3 +1,5 @@
-#members td.info p { font-size: 93%; }
-#members .email a { font-weight: bold; }
-#members ul { font-size: 93%; }
+#members div.member .header .tools a { text-decoration: underline; }
+#members div.member .header .tools a:hover { text-decoration: none; }
+#members div.member .info p { font-size: 93%; }
+#members div.member .email a { font-weight: bold;}
+#members div.member ul { font-size: 93%; }
