@@ -22,7 +22,7 @@ table#messages h2.date span {
 	margin-left: -22px;
 }
 table#messages tr.message td {
-	padding-top: 6px;
+	padding-top: 5px;
 	white-space: nowrap;	
 }
 table#messages tr.message td.type { 
@@ -36,7 +36,11 @@ table#messages td.type span {
 	padding: 1px 5px;
 	width: 60px;
 }
-table#messages tr.message td.contents {	line-height:1.1em;	padding-left:6px;
-	text-align: left;	width:100%;
+table#messages tr.message td.contents {
+	line-height: 1.1em;
+	padding-left: 6px;
+	padding-top: 8px;
+	text-align: left;
+	width:100%;
 	white-space: normal;
 }
