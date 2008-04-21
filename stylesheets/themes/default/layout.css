@@ -14,7 +14,10 @@
 .floated-list li a { display: block; }
 .centered { text-align: center; }
 
-#header { padding: 5px 25px 0px 25px; }
+#header { 
+  min-width: 800px;
+  padding: 5px 25px 0px 25px; 
+}
 
 #pre-header { padding: 5px 0px 30px; }
 #pre-header h3 { margin-top: 5px; }
@@ -28,7 +31,10 @@
 	padding: 4px 8px;
 }
 
-#container { margin: 20px 25px 0px 25px; }
+#container { 
+  min-width: 800px;
+  margin: 20px 25px 0px 25px; 
+}
 
 #primary-content { 
   min-width: 600px;
@@ -37,7 +43,9 @@
 #primary-content div.content { padding: 10px 20px 15px; }
 #primary-content h2 { padding: 10px 20px; }
 
-#sidebar { min-width: 200px; width: 24.9%; }
+#sidebar { 
+  min-width: 200px; 
+  width: 24.9%; }
 #sidebar div.content { padding: 0 0px 15px 20px; }
 #sidebar div.list h2 {
   margin: 0px 0px 5px 0px;

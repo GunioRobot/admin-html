@@ -1,0 +1,42 @@
+table#messages{ width:100%; }
+table#messages tr {
+	border-bottom:1px solid;
+}
+table#messages td {
+	padding: 4px 3px;
+	text-align: right;
+	vertical-align: top;
+}
+table#messages tr.date { border-bottom:  none; }
+table#messages tr.date td { 
+	text-align: left; 
+	padding-left: 0px;
+}
+table#messages h2.date {
+	margin-bottom: 5px;
+	padding-left: 0px;
+}
+table#messages h2.date span { 
+	border-bottom: 1px solid; 
+	padding: 2px 4px 2px 24px;
+	margin-left: -22px;
+}
+table#messages tr.message td {
+	padding-top: 6px;
+	white-space: nowrap;	
+}
+table#messages tr.message td.type { 
+	padding-top: 4px;
+	text-align:right; 
+}
+table#messages td.type span {
+	clear: left;
+	display: block;
+	float: right;
+	padding: 1px 5px;
+	width: 60px;
+}
+table#messages tr.message td.contents {	line-height:1.1em;	padding-left:6px;
+	text-align: left;	width:100%;
+	white-space: normal;
+}
