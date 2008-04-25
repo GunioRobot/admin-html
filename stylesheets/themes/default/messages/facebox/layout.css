@@ -1,0 +1,6 @@
+div.flagged_message div { padding:  5px; }
+div.flagged_message div.message { padding: 10px; }
+div.flagged_message div.submitted_by { float: left; }
+div.flagged_message div.flagged_by { float: left; }
+div.flagged_message div.date { float: right; }
+

@@ -43,7 +43,11 @@ body {
   background-color: #005480;
   color: #ffffff;
 }
-
+div.empty { 
+  background-color: #edf3fe; 
+  border-color: #6492ac;
+  color: #6492ac;
+}
 #footer a { color: #666666; }
 #footer a:hover {
   color: #ffffff;

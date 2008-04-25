@@ -56,7 +56,11 @@
   padding-left: 10px;
   text-decoration: none;
 }
-
+div.empty {
+  border: 4px solid;
+  padding: 20px;
+  text-align: center;
+}
 #footer {
   font-size: 90%;
   padding: 10px 45px 15px 45px;
