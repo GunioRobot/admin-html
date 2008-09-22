@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>Admin Interface</title>
+  <link href="reset.css" media="all" rel="Stylesheet" type="text/css" />
+  <link href="stylesheets/themes/default/layout.css" media="all" rel="Stylesheet" type="text/css" />
+  <link href="stylesheets/themes/default/colors.css" media="all" rel="Stylesheet" type="text/css" />
+  <link href="stylesheets/themes/default/fonts.css" media="all" rel="Stylesheet" type="text/css" />
+  <!-- Editor CSS -->
+    <link href="stylesheets/themes/default/editor/layout.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href="stylesheets/themes/default/editor/colors.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href="stylesheets/themes/default/editor/fonts.css" media="all" rel="Stylesheet" type="text/css" />
+  <!--[if IE 6]> 
+    <link href="stylesheets/themes/default/ie6.css" media="all" rel="Stylesheet" type="text/css" /> 
+  <![endif]-->
+  <!--[if IE 7]> 
+    <link href="stylesheets/themes/default/ie7.css" media="all" rel="Stylesheet" type="text/css" /> 
+  <![endif]-->
+</head>
+<body>
+    <div id="header">
+      <div id="pre-header" class="clear-fix">
+          <h1 class="left">Company Name</h1>
+          <h3 class="right">John Doe <span class="pipe">|</span> <a href="#">Log-out</a></h3>
+      </div>
+      <div class="tabs clear-fix">
+        <ul class="left">
+          <li><a href="/members/index.html" class="current">Members</a></li>
+          <li><a href="/">Tab 2</a></li>
+          <li><a href="/">Tab 3</a></li>
+          <li><a href="/">Tab 4</a></li>
+        </ul>
+        <ul class="right">
+          <li><a href="#" class="current">Tab 1</a></li>
+          <li><a href="/">Tab 2</a></li>
+          <li><a href="/">Tab 3</a></li>
+          <li><a href="/">Tab 4</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="container" class="clear-fix">
+      <div id="primary-content" class="left">
+        <h2 class="clear-fix">
+          <span class="left">Message</span>
+          <span class="links right"><a href="#">edit</a><a href="#">delete</a></span>
+        </h2>
+        <div class="content">
+          <ol class="errors">
+            <li>First Error</li>
+            <li>Second Error</li>
+          </ol>
+          <div class="flash_notice">
+            Some message
+          </div>
+          <form class="editor">
+            <label>Title</label><br/>
+            <input type="text" class="title"><br/>
+            <label>Email Content</label><br/>
+            <textarea></textarea><br/>
+            <div class="buttons">
+              <input type="submit" value="Save"/>
+              or <a href="#" class="cancel">Cancel</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="sidebar" class="right">
+        <div class="content">
+          <div class="list">
+            <h2>Members</h2>
+            <ul>
+              <li><a href="#">All</a></li>
+              <li><a href="#">Active</a></li>
+              <li><a href="#">Suspended</a></li>
+            </ul>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <a href="/">privacy</a>
+      <span class="pipe">|</span>
+      <a href="/">terms</a>
+      <span class="pipe">|</span>
+      <a href="/">company</a>
+    </div>
+</body>
+</html>

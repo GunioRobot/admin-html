@@ -48,6 +48,12 @@ div.empty {
   border-color: #6492ac;
   color: #6492ac;
 }
+ol.errors, ul.errors {
+  background-color: #FFD9DC;
+  border-color: #990000;
+  color: #990000;	
+}
+
 #footer a { color: #666666; }
 #footer a:hover {
   color: #ffffff;

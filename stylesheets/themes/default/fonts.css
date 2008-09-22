@@ -18,6 +18,8 @@ p { font-size: 1em;}
 }
 #header div.tabs a.current { font-weight: bold; }
 
+#primary-content h2 a { font-size: 0.7em; }
+ol.errors, ul.errors { font-size: 1.1em;}
 #sidebar div.list ul a { font-size: 105%; }
 
 #footer a:hover { text-decoration: none; }
