@@ -44,6 +44,18 @@
 #primary-content h2 { padding: 10px 20px; }
 #primary-content h2 a { padding-left: 10px; }
 
+#primary-content form { padding:  10px 15px 10px 15px; }
+#primary-content form hr { margin-bottom: 15px;}
+#primary-content form input, #primary-content form textarea { 
+  margin-bottom:  15px; 
+  width: 30%; 
+}
+#primary-content form .buttons input { 
+	margin-bottom: 0px;
+	padding:  2px 10px;
+	width: 10%;
+}
+
 #sidebar { 
   min-width: 200px; 
   width: 24.9%; }

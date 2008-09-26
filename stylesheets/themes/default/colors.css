@@ -34,6 +34,10 @@ body {
 
 #primary-content a:hover { color: #990000;}
 
+#primary-content form { background-color: #E5E5E5; }
+#primary-content form label { color: #333333; }
+#primary-content form a.cancel { color: #990000; }
+
 #sidebar div.list h2 {
   background-color: #edf3fe;
   color: #333333;
