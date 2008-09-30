@@ -1,0 +1,5 @@
+#groups div.group .header .tools a { text-decoration: underline; }
+#groups div.group .header .tools a:hover { text-decoration: none; }
+#groups div.group .info p { font-size: 93%; }
+#groups div.group .owner a { font-weight: bold;}
+#groups div.group ul { font-size: 93%; }

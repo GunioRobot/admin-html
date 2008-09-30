@@ -1,0 +1,33 @@
+#alpha-filter li a {
+  background-color: #f7f7f7;
+  border-color: #eeeeee;
+}
+#alpha-filter li a:hover {
+  background-color: #999999;
+  color: #ffffff;
+}
+#groups h3 {
+  border-bottom-color: #eeeeee;
+  color: #555555;
+}
+#groups div.group .header { color: #ffffff; }
+#groups div.group .header .tools a { color: #ffffff; }
+#groups div.group .header .tools a:hover { 
+  background-color: #f7f7f7;
+  color: #0077BB; 
+}
+#groups div.group .approved { background-color: #0077bb; }
+#groups div.group .denied { background-color: #990000; }
+#groups div.group .avatar {
+  background-color: #ffffff;
+  border-color: #eeeeee;
+}
+#groups div.group .info-container { border-color: #dddddd; }
+#groups div.group .info { border-right-color: #eeeeee; }
+#groups div.group .info h3 {
+  background-color: #f7f7f7;
+  border-bottom-color: #dddddd;
+}
+#groups div.group .owner a, 
+#groups div.group p.since, 
+#groups div.group .details ul { color: #777777;}
