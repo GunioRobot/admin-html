@@ -1,0 +1,35 @@
+#alpha-filter li { float: left; }
+#alpha-filter li a {
+  border: 1px solid; 
+  display: block;
+  margin: 0px 5px 5px 0px; 
+  padding: 3px 10px;
+}
+#groups { margin-top: 20px; }
+#groups h3 { padding: 5px; }
+#groups div.group { 
+  margin-bottom: 20px;
+}
+#groups div.group .header { padding: 3px 0px; }
+#groups div.group .header h4 { 
+  float: left;
+  padding: 1px 3px 1px 10px; 
+}
+#groups div.group .header .tools { padding: 1px 10px 1px 3px; }
+#groups div.group .header .tools a { padding: 0px 3px; }
+#groups div.group .avatar {
+  border: 1px solid;
+  margin-right: 10px;
+  max-height: 50px;
+  max-width: 50px;
+}
+#groups div.group .info-container {
+  border: 1px solid;
+  border-top: none;
+}
+
+#groups div.group dt { padding: 15px 10px; }
+#groups div.group dd { padding: 10px; }
+
+
+
