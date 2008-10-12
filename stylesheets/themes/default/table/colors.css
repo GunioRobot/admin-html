@@ -1,0 +1,6 @@
+#primary-content table { 
+	background-color: #ECECEC; 
+	border-color: #669FCC;
+}
+#primary-content td { border-color: #669FCC; }
+#primary-content a:hover { background-color: #BACBD4; }

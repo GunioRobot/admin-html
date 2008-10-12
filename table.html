@@ -9,9 +9,9 @@
   <link href="stylesheets/themes/default/colors.css" media="all" rel="Stylesheet" type="text/css" />
   <link href="stylesheets/themes/default/fonts.css" media="all" rel="Stylesheet" type="text/css" />
   <!-- Editor CSS -->
-    <link href="stylesheets/themes/default/editor/layout.css" media="all" rel="Stylesheet" type="text/css" />
-    <link href="stylesheets/themes/default/editor/colors.css" media="all" rel="Stylesheet" type="text/css" />
-    <link href="stylesheets/themes/default/editor/fonts.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href="stylesheets/themes/default/table/layout.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href="stylesheets/themes/default/table/colors.css" media="all" rel="Stylesheet" type="text/css" />
+    <link href="stylesheets/themes/default/table/fonts.css" media="all" rel="Stylesheet" type="text/css" />
   <!--[if IE 6]> 
     <link href="stylesheets/themes/default/ie6.css" media="all" rel="Stylesheet" type="text/css" /> 
   <![endif]-->
@@ -51,28 +51,15 @@
             <li>First Error</li>
             <li>Second Error</li>
           </ol>
-          <div class="flash_notice">
-            Some message
-          </div>
-          <form>
-            <p class="section">
-              <label for="current_password">Current Password:</label><br />
-              <input type="text" name="current_password">
-            </p>
-            <hr/>
-            <p>
-              <label for="new_password">New Password:</label><br />
-              <input type="text" name="new_password">
-            </p>
-            <p>
-              <label for="new_password_confirmation">New Password Confirmation:</label><br />
-              <input type="text" name="new_password_confirmation">
-            </p>
-            <div class="buttons">
-              <input type="submit" value="Save"/>
-              or <a href="#" class="cancel">Cancel</a>
-            </div>
-          </form>
+          <table>
+            <tr>
+              <td><p>Link 1</p></td>
+              <td><a href="#">Link 2</a></td>
+              <td><p>Link 3</p></td>
+              <td><a href="#">Link 4</a></td>
+              <td><p>Link 5</p></td>
+            </tr>
+          </table>
         </div>
       </div>
       <div id="sidebar" class="right">
@@ -84,22 +71,7 @@
               <li><a href="#">Active</a></li>
               <li><a href="#">Suspended</a></li>
             </ul>
-          </div>
-          
-          <div class="list">
-            <h2>Categories</h2>
-            <ul>
-              <li><a href="#">All Categories</a></li>
-            </ul>
-            <hr/>
-            <form>
-              <p class="section">
-                <label for="category" class="left">New Category:</label><br/>
-                <input type="text" name="category"><br/>
-              </p>
-              <input type="submit" value="Create New Category"/>
-            </form>
-          </div>
+          </div>  
         </div>
       </div>
     </div>

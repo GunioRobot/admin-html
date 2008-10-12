@@ -1,0 +1,12 @@
+#primary-content table {
+	border: 3px solid;
+	border-color: collapse;
+	width: 100%;
+}
+#primary-content td {
+	border: 1px solid;
+	width: 20%;
+}
+#primary-content td a { display: block; }
+#primary-content td a, #primary-content td p { padding: 8px 5px 8px 10px; }
+#primary-content td a:hover { text-decoration: underline; }
