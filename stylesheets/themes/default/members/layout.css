@@ -1,19 +1,19 @@
 #alpha-filter li { float: left; }
 #alpha-filter li a {
-  border: 1px solid; 
+  border: 1px solid;
   display: block;
-  margin: 0px 5px 5px 0px; 
+  margin: 0px 5px 5px 0px;
   padding: 3px 10px;
 }
 #members { margin-top: 20px; }
 #members h3 { padding: 5px; }
-#members div.member { 
+#members div.member {
   margin-bottom: 20px;
 }
 #members div.member .header { padding: 3px 0px; }
-#members div.member .header h4 { 
+#members div.member .header h4 {
   float: left;
-  padding: 1px 3px 1px 10px; 
+  padding: 1px 3px 1px 10px;
 }
 #members div.member .header .tools { padding: 1px 10px 1px 3px; }
 #members div.member .header .tools a { padding: 0px 3px; }
@@ -28,16 +28,16 @@
   border: 1px solid;
   border-top: none;
 }
-#members div.member .info { 
+#members div.member .info {
   padding: 5px;
   border-right: 2px solid;
-  width: 320px; 
+  width: 320px;
 }
 #members div.member .identity {
   margin-left: 58px;
 }
-#members div.member .info h3 { 
-  border-bottom: 1px solid; 
+#members div.member .info h3 {
+  border-bottom: 1px solid;
   padding: 5px;
 }
 #members div.member .details ul {

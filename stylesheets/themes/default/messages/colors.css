@@ -1,11 +1,11 @@
 table#messages tr { border-bottom-color: #efefef; }
 table#messages h2.date { background-color: #ffffff; }
-table#messages h2.date span { 
+table#messages h2.date span {
 	border-bottom-color: #cccccc;
 	color: #666666;
 }
-table#messages td.type span { 
+table#messages td.type span {
 	color: #ffffff;
-	background-color: #6492ac; 
+	background-color: #6492ac;
 }
 table#messages td.action { color: #999999; }

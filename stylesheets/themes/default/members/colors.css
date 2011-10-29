@@ -12,9 +12,9 @@
 }
 #members div.member .header { color: #ffffff; }
 #members div.member .header .tools a { color: #ffffff; }
-#members div.member .header .tools a:hover { 
+#members div.member .header .tools a:hover {
   background-color: #f7f7f7;
-  color: #0077BB; 
+  color: #0077BB;
 }
 #members div.member .active { background-color: #0077bb; }
 #members div.member .suspended { background-color: #990000; }

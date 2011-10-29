@@ -12,9 +12,9 @@
 }
 #groups div.group .header { color: #ffffff; }
 #groups div.group .header .tools a { color: #ffffff; }
-#groups div.group .header .tools a:hover { 
+#groups div.group .header .tools a:hover {
   background-color: #f7f7f7;
-  color: #0077BB; 
+  color: #0077BB;
 }
 #groups div.group .approved { background-color: #0077bb; }
 #groups div.group .denied { background-color: #990000; }
@@ -28,6 +28,6 @@
   background-color: #f7f7f7;
   border-bottom-color: #dddddd;
 }
-#groups div.group .owner a, 
-#groups div.group p.since, 
+#groups div.group .owner a,
+#groups div.group p.since,
 #groups div.group .details ul { color: #777777;}

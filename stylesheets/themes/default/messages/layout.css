@@ -8,26 +8,26 @@ table#messages td {
 	vertical-align: top;
 }
 table#messages tr.date { border-bottom:  none; }
-table#messages tr.date td { 
-	text-align: left; 
+table#messages tr.date td {
+	text-align: left;
 	padding-left: 0px;
 }
 table#messages h2.date {
 	margin-bottom: 5px;
 	padding-left: 0px;
 }
-table#messages h2.date span { 
-	border-bottom: 1px solid; 
+table#messages h2.date span {
+	border-bottom: 1px solid;
 	padding: 2px 4px 2px 24px;
 	margin-left: -22px;
 }
 table#messages tr.message td {
 	padding-top: 5px;
-	white-space: nowrap;	
+	white-space: nowrap;
 }
-table#messages tr.message td.type { 
+table#messages tr.message td.type {
 	padding-top: 4px;
-	text-align:right; 
+	text-align:right;
 }
 table#messages td.type span {
 	clear: left;
